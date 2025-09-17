@@ -307,6 +307,11 @@ rule-providers:
     <<: *RuleProviders
     path: './rules/ESET_China.yaml'
     url: 'https://kelee.one/Tool/Clash/Rule/ESET_China.yaml'
+    
+  广告拦截:
+    <<: *RuleProviders
+    path: './rules/adblock_reject.yaml'
+    url: 'https://raw.githubusercontent.com/REIJI007/AdBlock_Rule_For_Clash/main/adblock_reject.yaml'
 
 # 规则指向
 rules:
